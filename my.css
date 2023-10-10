@@ -1,0 +1,101 @@
+fieldset[class="1"]{
+  width:50%;
+  }
+  fieldset[class="2"]{
+    position:absolute;
+    margin-right:50%;
+    width:50%;
+    bottom:0;
+    left:50%;
+    top:95px;
+  }
+  fieldset[class="3"]{
+    width:100%;
+  }
+  legend{
+    text-align:center;
+    color:black;
+    display:block;
+    margin-left: 0;
+    width:90%;
+    background-color:darkseagreen;
+    border:3px solid brown;
+  }
+  legend[class="2"]{
+    text-align:center;
+    color:black;
+    display:block;
+    margin-left: 0;
+    width:90%;
+    background-color:yellowgreen;
+    border:3px solid blue;
+  }
+  input[type="text"]{
+    margin-left:5%;
+    width: 90%;
+    align-self:left;
+    border:3px double darkgrey;
+    border-radius: 5px;
+  }
+  label{
+    color:red;
+    display:block;
+    text-align: center;
+    margin-left:5%;
+    width:90%;
+    background-color: rgb(255, 255, 255);
+    border:3px dashed black;
+    text-shadow: 3px 3px 5px black;
+  }
+  label[for="relation"]{
+    color:red;
+    display:block;
+    text-align: center;
+    margin-left:5%;
+    width:10%;
+    background-color: white;
+    border:3px dashed black;
+    text-shadow: 3px 3px 5px black;
+  }
+  input[type="radio"]{
+    margin-left:5%;
+    
+  }
+  textarea{
+    margin-left:5%;
+    width:90%;     
+  }
+  input[type="submit"]{
+    margin-left:5%;
+    
+  }
+  button[name="edit"]{
+    margin-left:30%;
+  }
+  button[name="delete"]{
+    margin-left:30%;
+  }
+  
+@media only screen and (max-width:600px) {
+  fieldset[class="2"]{
+    position:relative;
+    margin-top:50px;
+    left:0;
+    width:100%;
+  }
+  fieldset[class="1"]{
+    width:100%;
+  }
+  button[name="home"]{
+    margin-top:100px;
+    margin-bottom:10px;
+  }
+  button[name="edit"]{
+    display:block;
+    margin-left:0px;
+  }
+  button[name="delete"]{
+    display:block;
+    margin-left:0px;
+  }
+}
